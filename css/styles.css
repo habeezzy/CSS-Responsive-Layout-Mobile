@@ -35,6 +35,7 @@ P {
   padding: 1em 2em;
   border: 1px solid #666;
   margin: .5em 0;
+  color: #ccc;
 }
 
 .btn:hover {
@@ -59,5 +60,23 @@ P {
   width: 100%;
   height: 450px;
   z-index: -1;
+  opacity: 0.4;
+}
 
+
+#showcase h1 {
+ padding-top: 100px;
+ padding-bottom: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+  padding: 0 1.5em;
+}
+
+
+#section-a {
+  background: #eaeaea;
+  color: #333;
+  padding-bottom: 2em;
 }
